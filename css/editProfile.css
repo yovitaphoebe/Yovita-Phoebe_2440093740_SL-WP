@@ -1,0 +1,77 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    background-color: #99d6ed;
+}
+
+.title{
+    margin: 40px 0px;
+    font-size: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form_content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form_item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 40px;
+    width: 350px;
+    height: 100%;
+    font-size: 20px;
+}
+
+.form_item>input{
+    width: 200px;
+    font-size: 18px;
+    background-color: white;
+}
+
+#form_item_alamat{
+    line-height: 100px;
+}
+
+.form_button{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 50px 100px;
+}
+
+.form_button>a{
+    text-decoration: none;
+    margin: 0px 10px;
+    width: 200px;
+    line-height: 30px;
+    font-size: 22px;
+    text-align: center;
+    color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+    background-color: #fdd7ac;
+}
+
+.form_button>input{
+    text-decoration: none;
+    margin: 0px 10px;
+    width: 200px;
+    line-height: 30px;
+    font-size: 22px;
+    text-align: center;
+    color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+    background-color: #c6ed99;
+}
